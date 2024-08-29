@@ -1,5 +1,18 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+#controllers:
+#   resource:
+#       path: ../src/Controller/
+#       namespace: App\Controller
+#   type: attribute
+
+homepage:
+    path: /
+    # the controller value has the format 'controller_class::method_name'
+    controller: App\Controller\FirstController::index
+
+myJson:
+    path: /json
+    controller: App\Controller\FirstController::myJson
+
+papa2:
+    path: /page2
+    controller: App\Controller\FirstController::page2
