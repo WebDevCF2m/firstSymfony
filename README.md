@@ -32,3 +32,17 @@ Documentation :
 
 https://symfony.com/bundles/SymfonyMakerBundle/current/index.html
 
+    php bin/console make:
+    # ou
+    symfony console make:
+
+### Création du premier contrôleur
+
+    php bin/console make:controller
+
+    Choose a name for your controller class (e.g. BraveKangarooController):
+    > FirstController
+
+    created: src/Controller/FirstController.php
+
+
